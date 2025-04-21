@@ -1,0 +1,42 @@
+[debug] [2025-04-21T04:16:01.425Z] ----------------------------------------------------------------------
+[debug] [2025-04-21T04:16:01.427Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Chase\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-04-21T04:16:01.427Z] CLI Version:   13.0.2
+[debug] [2025-04-21T04:16:01.427Z] Platform:      win32
+[debug] [2025-04-21T04:16:01.427Z] Node Version:  v21.5.0
+[debug] [2025-04-21T04:16:01.427Z] Time:          Sun Apr 20 2025 22:16:01 GMT-0600 (Mountain Daylight Time)
+[debug] [2025-04-21T04:16:01.428Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-21T04:16:01.492Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-21T04:16:01.492Z] > authorizing via signed-in user (0chasew0@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2025-04-21T04:16:01.498Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-21T04:16:01.498Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-21T04:16:01.498Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-04-21T04:16:01.505Z] [hub] writing locator at C:\Users\Chase\AppData\Local\Temp\hub-noodle-studio-a8587.json
+[debug] [2025-04-21T04:16:01.515Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/noodle-studio-a8587/sites 
+[debug] [2025-04-21T04:16:02.166Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/noodle-studio-a8587/sites 200
+[debug] [2025-04-21T04:16:02.167Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/noodle-studio-a8587/sites {"sites":[{"name":"projects/noodle-studio-a8587/sites/noodle-studio-a8587","defaultUrl":"https://noodle-studio-a8587.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-04-21T04:16:02.167Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/noodle-studio-a8587/webApps/-/config [none]
+[debug] [2025-04-21T04:16:02.354Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/noodle-studio-a8587/webApps/-/config 200
+[debug] [2025-04-21T04:16:02.354Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/noodle-studio-a8587/webApps/-/config {"projectId":"noodle-studio-a8587","storageBucket":"noodle-studio-a8587.firebasestorage.app","apiKey":"AIzaSyAdO_GTpa_xEG7PmYPuRa3OpIcoWNGojHc","authDomain":"noodle-studio-a8587.firebaseapp.com","messagingSenderId":"471691120407"}
+[debug] [2025-04-21T04:16:02.359Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/noodle-studio-a8587 [none]
+[debug] [2025-04-21T04:16:02.432Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/noodle-studio-a8587 200
+[debug] [2025-04-21T04:16:02.432Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/noodle-studio-a8587 {"projectId":"noodle-studio-a8587","projectNumber":"471691120407","displayName":"noodle-studio","name":"projects/noodle-studio-a8587","resources":{"hostingSite":"noodle-studio-a8587"},"state":"ACTIVE","etag":"1_81cda353-9456-4561-9ecd-dab8cb22a307"}
+[info] i  hosting[noodle-studio-a8587]: Serving hosting files from: src {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1msrc\u001b[22m"}}
+[info] +  hosting[noodle-studio-a8587]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
